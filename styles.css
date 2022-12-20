@@ -1,1 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Courier New;
+}
+
+#nav-bar{
+  float: right;
+  display: block;
+  font-family: Courier New;
+  margin-top: 30;
+  margin-right: 30;
+}
+
+#form{
+  text-align: center;
+  margin-top: 30px;
+}
+
+#video{
+  display: block;
+  margin: 30px auto;
+  width: 600px;
+  height: 400px;
+}
+
+#info{
+  margin: 30px 100px 30px 100px;
+  text-align: center;
+}
+
+#materials_logo{
+  width: 100px;
+  height: 100px;
+  margin: 30px 100px 30px 100px;
+}
+
+#materials_caption{
+  width: 400px;
+  display: block;
+  float: right;
+  margin: 
+}
 
