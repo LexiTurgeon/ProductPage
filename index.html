@@ -5,19 +5,27 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <header id="header">
-  <img id="header-img" src="https://user-images.githubusercontent.com/57235371/207756573-06a332ea-f6d5-4a77-877b-6e83f8e40d92.PNG"></img>
-
-  <nav id="nav-bar">
-    <a class="nav-link" href="#header">header</a>
-    <a class="nav-link" href="#iframe">iframe</a>
-    <a class="nav-link" href="#form">form</a>
-  </nav>
+  <div class="logo">
+    <img id="header-img" src="https://raw.githubusercontent.com/LexiTurgeon/ProductPage/main/HuckleberryHandmade.PNG"></img>
+    <nav id="nav-bar">
+      <a class="nav-link" href="#video">Video</a>
+      <a class="nav-link" href="#email">Email</a>
+      <a class="nav-link" href="#submit">Submit</a>
+    </nav>
+  </div>
 </header>
-
-<iframe id="video" height="400" width="400" src="https://www.youtube.com/embed/HkqVIsideL8">
-</iframe>
-
-<form id="form"></form>
-<input id="email" placeholder="Enter Email"></input>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+  <input id="email" placeholder="Enter Email" type="email" name="email"></input>
+  <input id="submit" type="submit">
+</form>
+<p id="info">Huckleberry Handmade is a New Hampshire based dog collar and accessories company. We strive to create
+  handmade products for your dog. We currently offer collars, leashes, and harnesses. All of which are handmade right
+  here in the USA.</p>
+<iframe id="video" src="https://www.youtube.com/embed/HkqVIsideL8"></iframe>
+<div id="materials">
+  <img id="materials_logo" src="https://raw.githubusercontent.com/LexiTurgeon/ProductPage/main/Capture.PNG"></img>
+  <p id="materials_caption">We use only the finest materials sourced here in the USA. Our goal is to support other local
+    businesses. We do this by buying materials from these local businesses.
+</div>
 
 </html>
