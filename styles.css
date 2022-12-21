@@ -59,23 +59,24 @@
   font-weight: bold;
 }
 
-#pricing_item{
+#collar_pricing_item, #leash_pricing_item, #harness_pricing_item{
+  margin-top: 15px;
   font-size: 30px;
   font-weight: bold;
   display: flex;
   justify-content: center;
 }
 
-#pricing{ 
+#collar_pricing, #leash_pricing, #harness_pricing{ 
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto; 
   width: 350px;
-  height: 400px;
+  height: 450px;
   border: 1px solid; 
 }
 
-#pricing_price{
+#collar_pricing_price, #leash_pricing_price, #harness_pricing_price{
   margin-top: 15px;
   font-size: 25px;
   font-weight: bold;
@@ -83,20 +84,32 @@
   justify-content: center;
 }
 
-#pricing_info1{
+#collar_pricing_info1, #leash_pricing_info1, #harness_pricing_info1{
   margin-top: 15px;
   font-size: 18px;
   display: flex;
   justify-content: center;
 }
 
-#pricing_info2, #pricing_info3{
+#collar_pricing_info2, #collar_pricing_info3, #leash_pricing_info2, #leash_pricing_info3, #harness_pricing_info2, #harness_pricing_info3{
   margin-top: 15px;
   font-size: 18px;
   text-align: center;
 }
 
-#pricing_submit{
-  display: flex;
-  justify-content: center;
+#collar_example, #leash_example{
+  width: 200px;
+  margin: 30px auto;
+  display: block;
+}
+
+#collar_pricing_submit, #leash_pricing_submit, #harness_pricing_submit{
+  width: 100px;
+}
+
+#harness_example{
+  width: 200px;
+  height: 150px;
+  margin: 10px auto;
+  display: block;
 }
